@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Address Book</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>📒 Address Book</h1>
+
+  <div id="form-section">
+    <h3>Add Address</h3>
+    <input id="name" placeholder="Name" />
+    <input id="street" placeholder="Street" />
+    <input id="city" placeholder="City" />
+    <input id="zip" placeholder="Zip" />
+    <button onclick="addAddress()">Add</button>
+  </div>
+
+  <div id="search-section">
+    <h3>Search</h3>
+    <input id="searchName" placeholder="Search by name" />
+    <input id="searchStreet" placeholder="Search by street" />
+    <button onclick="searchAddress()">Search</button>
+    <button onclick="loadAddresses()">Reset</button>
+  </div>
+
+  <h3>All Addresses that is seen</h3>
+  <ul id="addressList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>

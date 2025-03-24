@@ -1,0 +1,21 @@
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java build stuff
+target/
+bin/
+build/
+
+# Node/JS
+node_modules/
+dist/
+.env
